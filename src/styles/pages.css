@@ -1,0 +1,91 @@
+.pageHero { background: linear-gradient(120deg, var(--navy), var(--blue)); color: #fff; padding: 75px 0; }
+.pageHero h1 { font-size: clamp(40px, 6vw, 72px); line-height: 1.1; margin: 12px 0 0; letter-spacing: -2px; }
+
+.pageContent { padding-top: 70px; padding-bottom: 90px; }
+.pageContent h2 { font-size: clamp(28px, 3.6vw, 42px); line-height: 1.15; letter-spacing: -1.2px; margin: 40px 0 12px; }
+.pageContent h2:first-child { margin-top: 0; }
+.pageContent h3 { margin: 26px 0 8px; }
+.pageContent p, .pageContent li { color: #4f6579; font-size: 16px; }
+.lead { font-size: 18px !important; color: var(--muted) !important; max-width: 780px; }
+
+/* Timeline (Our History) */
+.timeline { display: grid; gap: 28px; margin-top: 10px; }
+.tItem { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 36px; align-items: center; background: #fff; border: 1px solid var(--border); border-radius: 28px; padding: 26px; }
+.tItem:nth-child(even) .tImg { order: 2; }
+.tImg img { width: 100%; border-radius: 20px; aspect-ratio: 4 / 3; object-fit: cover; background: var(--sky); }
+.tYear { font-size: 46px; font-weight: 850; color: var(--gold-dark); letter-spacing: -2px; line-height: 1; }
+.tItem h2 { margin: 8px 0 12px; font-size: 28px; letter-spacing: -0.5px; }
+
+/* Visionaries */
+.visGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.visCard { background: #fff; border: 1px solid var(--border); border-radius: 28px; overflow: hidden; }
+.visCard img { width: 100%; aspect-ratio: 4 / 4.4; object-fit: cover; object-position: top; background: var(--sky); }
+.visBody { padding: 24px; }
+.visBody h3 { margin: 0 0 2px; font-size: 22px; }
+.visYears { color: var(--gold-dark); font-weight: 800; font-size: 14px; }
+
+/* Admission */
+.steps { margin: 30px 0; }
+.steps > div { display: flex; gap: 18px; align-items: flex-start; border-bottom: 1px solid #e1e8ee; padding: 15px 0; }
+.steps span { background: var(--gold); border-radius: 50%; min-width: 32px; height: 32px; display: grid; place-items: center; font-weight: 800; color: #152b40; }
+.steps p { margin: 3px 0; }
+.noteBox { background: var(--sky); border-radius: 22px; padding: 26px 30px; margin: 30px 0; }
+.noteBox h3 { margin-top: 0; }
+.testList { list-style: none; padding: 0; margin: 14px 0; display: grid; gap: 10px; }
+.testList li { background: #fff; border: 1px solid var(--border); border-radius: 14px; padding: 12px 16px; }
+.testList b { color: var(--navy); }
+
+/* Forms */
+.form { display: grid; gap: 13px; background: #fff; border: 1px solid #e5edf3; border-radius: var(--radius); padding: 28px; box-shadow: 0 10px 30px #082f5508; }
+.form label { font-size: 13px; font-weight: 700; color: var(--navy); }
+.form input, .form select, .form textarea { width: 100%; border: 1px solid #d6e0e8; border-radius: 12px; padding: 13px 14px; font: inherit; background: #fff; color: var(--text); }
+.form input:focus, .form select:focus, .form textarea:focus { outline: 2px solid var(--gold); outline-offset: 1px; border-color: transparent; }
+.formMsg { margin: 0; padding: 12px 14px; border-radius: 12px; background: #e9f7ee; color: #1d6b3b !important; font-size: 14px; }
+
+/* Contact */
+.contactgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; }
+.contactlist { margin-top: 26px; display: grid; gap: 4px; }
+.contactlist p { display: flex; gap: 10px; align-items: flex-start; margin: 6px 0; }
+.contactlist svg { color: var(--gold-dark); flex-shrink: 0; margin-top: 4px; }
+.contactlist a { text-decoration: none; }
+.contactlist a:hover { color: var(--blue); }
+.mapFrame { width: 100%; height: 380px; border: 0; border-radius: 24px; margin-top: 40px; background: var(--sky); }
+.branchGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 16px; }
+.branch { background: #fff; border: 1px solid var(--border); border-radius: 20px; padding: 22px; }
+.branch h3 { margin: 0 0 8px; font-size: 17px; text-transform: uppercase; letter-spacing: 0.3px; }
+.branch p { margin: 3px 0; font-size: 14px; }
+.branch a { color: var(--blue); text-decoration: none; word-break: break-all; }
+
+/* Happenings */
+.hapGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.hapCard { background: #fff; border: 1px solid var(--border); border-radius: 22px; padding: 26px; text-decoration: none; display: flex; flex-direction: column; gap: 6px; transition: box-shadow 0.2s ease, transform 0.2s ease; }
+.hapCard:hover { box-shadow: 0 14px 30px #082f5514; transform: translateY(-2px); }
+.hapCard h3 { margin: 0; color: var(--navy); }
+.hapCard p { margin: 0; font-size: 14px; }
+.hapCard .more { margin-top: auto; padding-top: 12px; font-weight: 750; font-size: 13px; color: var(--gold-dark); display: inline-flex; gap: 6px; align-items: center; }
+.tagline { font-size: 20px !important; color: var(--navy) !important; font-weight: 700; }
+.photoRow { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-top: 26px; }
+.photoRow img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 16px; background: var(--sky); }
+
+/* Placeholder / 404 */
+.notice { background: #fff; border: 1px dashed #c8d6e2; border-radius: 24px; padding: 36px; max-width: 760px; }
+.notice h2 { margin-top: 0 !important; }
+.notice .actions { margin-top: 20px; }
+.campusFacts { display: grid; gap: 8px; margin: 22px 0; }
+.campusFacts p { margin: 0; display: flex; gap: 10px; align-items: flex-start; }
+.campusFacts svg { color: var(--gold-dark); flex-shrink: 0; margin-top: 4px; }
+.notFound { text-align: center; padding: 40px 0; }
+.notFound strong { font-size: 100px; color: var(--gold-dark); line-height: 1; display: block; }
+
+@media (max-width: 960px) {
+  .tItem { grid-template-columns: 1fr; }
+  .tItem:nth-child(even) .tImg { order: 0; }
+  .visGrid, .hapGrid, .branchGrid { grid-template-columns: repeat(2, 1fr); }
+  .contactgrid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 560px) {
+  .pageContent { padding-top: 45px; }
+  .visGrid, .hapGrid, .branchGrid { grid-template-columns: 1fr; }
+  .tYear { font-size: 38px; }
+}

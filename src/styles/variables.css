@@ -1,0 +1,19 @@
+:root {
+  --navy: #082f55;
+  --navy-dark: #05243f;
+  --blue: #2367a1;
+  --sky: #eaf4fb;
+  --gold: #eab13d;
+  --gold-light: #f6c85c;
+  --gold-dark: #d99c26;
+  --brand-yellow: #f8c34f; /* theme-color of the original site */
+  --text: #17324d;
+  --text-soft: #263f57;
+  --muted: #5c7184;
+  --border: #e4ebf1;
+  --bg: #f7fafc;
+  --white: #ffffff;
+  --radius: 24px;
+  --container: 1180px;
+  --header-h: 86px;
+}

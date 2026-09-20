@@ -1,0 +1,105 @@
+/* Highlights ticker */
+.ticker { background: var(--brand-yellow); color: #152b40; font-size: 14px; font-weight: 650; }
+.tickerIn { display: flex; align-items: center; gap: 18px; padding-top: 9px; padding-bottom: 9px; overflow: hidden; }
+.tickerLabel { background: var(--navy); color: #fff; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; padding: 4px 12px; border-radius: 999px; white-space: nowrap; }
+.tickerTrack { display: flex; gap: 14px; align-items: center; white-space: nowrap; overflow-x: auto; scrollbar-width: none; }
+.tickerTrack::-webkit-scrollbar { display: none; }
+.tickerTrack a { text-decoration: none; }
+.tickerTrack a:hover { text-decoration: underline; }
+.tickerTrack span { opacity: 0.5; }
+
+/* Hero */
+.hero { background: linear-gradient(120deg, #072c50, #246ca4); color: #fff; overflow: hidden; }
+.heroGrid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 60px; align-items: center; padding-top: 105px; padding-bottom: 105px; }
+.hero h1 { font-size: clamp(48px, 7vw, 86px); line-height: 1.03; letter-spacing: -3px; margin: 18px 0; }
+.hero h1 em { font-style: normal; color: var(--gold-light); }
+.hero p { font-size: 18px; max-width: 540px; color: #d7e9f8; }
+.actions { display: flex; gap: 13px; flex-wrap: wrap; margin-top: 30px; }
+.heroCard { border: 1px solid #ffffff35; background: #ffffff12; border-radius: 30px; padding: 42px; }
+.heroCard span { color: var(--gold-light); font-weight: 700; }
+.heroCard strong { display: block; font-size: 95px; line-height: 1.1; }
+.heroCard h3 { font-size: 25px; }
+.heroCard p { font-size: 15px; }
+
+/* Stats */
+.stats { background: #fff; border-bottom: 1px solid var(--border); }
+.statsGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 24px; padding-top: 44px; padding-bottom: 44px; }
+.stat { display: flex; align-items: center; gap: 16px; }
+.stat img { width: 56px; height: 56px; object-fit: contain; }
+.statIcon { width: 56px; height: 56px; border-radius: 16px; background: var(--sky); display: grid; place-items: center; color: var(--blue); flex-shrink: 0; }
+.statIcon[hidden] { display: none; }
+.stat strong { display: block; font-size: 34px; line-height: 1; color: var(--navy); letter-spacing: -1px; }
+.stat span { font-size: 13px; color: var(--muted); font-weight: 600; }
+
+/* Philosophy */
+.philoGrid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 50px; align-items: center; }
+.philoGrid.single { grid-template-columns: 1fr; }
+.philoGrid.single .philoText { max-width: 860px; }
+.philoText p { color: var(--muted); font-size: 16px; }
+.philoImg img { width: 100%; border-radius: 28px; box-shadow: 0 20px 50px #082f5520; }
+.twocol { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-top: 44px; }
+.twocol article { background: #fff; border-radius: var(--radius); padding: 30px; border: 1px solid #e7edf2; }
+.twocol h3 { margin-top: 8px; }
+.twocol p, .twocol li { color: var(--muted); }
+.twocol ul { padding-left: 18px; margin: 0; }
+.number, .year { color: var(--gold-dark); font-weight: 850; }
+.quote { font-size: 20px; color: var(--navy) !important; font-weight: 650; line-height: 1.4; }
+
+/* What sets us apart */
+.cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.feature { background: #fff; padding: 28px; border-radius: var(--radius); }
+.feature svg { color: var(--blue); }
+.feature h3 { margin-top: 25px; }
+.feature p { color: #607589; font-size: 14px; }
+
+/* Associations */
+.assoc { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 18px; align-items: center; }
+.assoc div { background: #fff; border: 1px solid var(--border); border-radius: 18px; height: 110px; display: grid; place-items: center; padding: 16px; }
+.assoc img { max-height: 70px; width: auto; object-fit: contain; }
+
+/* Campuses */
+.campusgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.campus { background: #fff; border: 1px solid var(--border); border-radius: 22px; padding: 25px; box-shadow: 0 7px 20px #12304b08; display: flex; flex-direction: column; }
+.campus h3 { font-size: 20px; line-height: 1.25; margin: 8px 0 2px; }
+.campus .place { font-size: 13px; color: var(--muted); }
+.campus > b { font-size: 13px; color: var(--blue); margin-top: 8px; }
+.campus p { color: #607589; font-size: 14px; display: flex; gap: 7px; align-items: flex-start; }
+.campus .addr { color: #607589; text-decoration: none; }
+.campus .addr:hover { color: var(--blue); }
+.campus svg { flex-shrink: 0; margin-top: 4px; }
+.campusLinks { display: flex; gap: 8px; margin-top: auto; padding-top: 14px; align-items: center; }
+.campusLinks a { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: var(--sky); color: var(--blue); }
+.campusLinks a:hover { background: var(--gold); color: #152b40; }
+.campusLinks .visit { white-space: nowrap; display: inline-flex; align-items: center; gap: 4px; width: auto; border-radius: 999px; padding: 0 14px; font-size: 12px; font-weight: 700; margin-left: auto; text-decoration: none; }
+
+/* Media coverage */
+.gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.gallery a { display: block; border-radius: 18px; overflow: hidden; aspect-ratio: 4 / 3; background: var(--sky); }
+.gallery img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; }
+.gallery a:hover img { transform: scale(1.05); }
+
+/* CTA */
+.cta { background: var(--navy); color: #fff; padding: 80px 0; }
+.cta h2 { font-size: clamp(30px, 4vw, 50px); max-width: 800px; line-height: 1.15; margin: 15px 0 12px; }
+.cta p { color: #b9d3e8; max-width: 640px; margin: 0 0 30px; }
+
+@media (max-width: 960px) {
+  .heroGrid, .philoGrid { grid-template-columns: 1fr; }
+  .heroGrid { padding-top: 70px; padding-bottom: 70px; gap: 35px; }
+  .heroCard { padding: 28px; }
+  .heroCard strong { font-size: 70px; }
+  .cards { grid-template-columns: repeat(2, 1fr); }
+  .campusgrid { grid-template-columns: repeat(2, 1fr); }
+  .gallery { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 560px) {
+  .section { padding: 60px 0; }
+  .wrap { padding-left: 18px; padding-right: 18px; }
+  .twocol, .cards, .campusgrid { grid-template-columns: 1fr; }
+  .gallery { grid-template-columns: repeat(2, 1fr); }
+  .hero h1 { letter-spacing: -2px; }
+  .hero p { font-size: 16px; }
+  .heroCard strong { font-size: 60px; }
+  .tickerLabel { display: none; }
+}
