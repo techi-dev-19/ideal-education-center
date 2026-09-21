@@ -1,14 +1,16 @@
-import { HISTORY } from '../data/history';
-import { usePageTitle } from '../hooks/usePageTitle';
-import PageBanner from '../components/ui/PageBanner';
+import { HISTORY } from "../data/history";
+import { usePageTitle } from "../hooks/usePageTitle";
+import PageBanner from "../components/ui/PageBanner";
 
 export default function OurHistory() {
-  usePageTitle('Our History');
+  usePageTitle("Our History");
   return (
     <>
       <PageBanner title="Our History" eyebrow="About Us" />
       <div className="wrap pageContent">
-        <div className="timeline">
+        <div>Coming Soon..........</div>
+
+        {/* <div className="timeline">
           {HISTORY.map((item) => (
             <article className="tItem" key={item.year + item.title}>
               <div className="tImg">
@@ -29,7 +31,7 @@ export default function OurHistory() {
               </div>
             </article>
           ))}
-        </div>
+        </div> */}
       </div>
     </>
   );

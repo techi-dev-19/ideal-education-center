@@ -7,20 +7,20 @@ import { useCountUp } from "../../hooks/useCountUp";
 const STATS = [
   {
     key: "experience",
-    value: 79,
+    value: "0",
     suffix: "+",
     label: "Years of Experience",
     icon: Award,
   },
-  { key: "students", value: 9000, suffix: "+", label: "Students", icon: Users },
+  { key: "students", value: 0, suffix: "+", label: "Students", icon: Users },
   {
     key: "educators",
-    value: 400,
+    value: "000",
     suffix: "+",
     label: "Educators",
     icon: GraduationCap,
   },
-  { key: "branches", value: 8, suffix: "+", label: "Branches", icon: MapPin },
+  { key: "branches", value: 0, suffix: "+", label: "Branches", icon: MapPin },
 ];
 
 // 👉 apni real Facebook Reels ke links yaha daalo (share/permalink URL)

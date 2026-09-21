@@ -7,7 +7,7 @@ export const NAV = [
   {
     label: "About Us",
     children: [
-      { label: "Our Visionaries", to: "/our-visionaries" },
+      // { label: "Our Visionaries", to: "/our-visionaries" },
       { label: "Our History", to: "/our-history" },
       { label: "School Management", to: "/school-management" },
       {
