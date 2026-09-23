@@ -33,14 +33,14 @@ export const NAV = [
       { label: "IEC's Education", to: "/curriculum" },
       { label: "Achievements", to: "/achievements" },
       { label: "Teachers Development", to: "/teachers-development" },
-      { label: "Book List", href: `${UP}/2026/03/nlk-book-list.pdf` },
+      { label: "Book List", href: `#` },
       {
         label: "Exam Schedule",
-        href: `${UP}/2026/04/NLK-Group-Preschool-to-Grade-School.pdf`,
+        href: `#`,
       },
       {
         label: "Student Holiday List",
-        href: `${UP}/2026/03/NLK-Schools-Holiday-List-2026-2027.pdf`,
+        href: `#`,
       },
       { label: "Academic Calendars", to: "/academic-calendars" },
     ],
