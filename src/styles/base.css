@@ -75,8 +75,9 @@ button {
     background 0.15s ease;
 }
 .btn:hover {
-  background: var(--gold-light);
+  background: rgb(255, 102, 0);
   transform: translateY(-1px);
+  color: #fff;
 }
 .btn.small {
   padding: 11px 17px;

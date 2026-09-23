@@ -97,10 +97,10 @@ export const FOOTER_LINKS = [
   { label: "Career", to: "/career" },
   {
     label: "KES Annual Report 2024-25",
-    href: `${UP}/2026/05/KES-Annual-Report-2024-25.pdf`,
+    href: `#`,
   },
   {
     label: "KES Annual Report 2025-26",
-    href: `${UP}/2026/07/KES-Annual-Report-2025-26.pdf`,
+    href: `#`,
   },
 ];
