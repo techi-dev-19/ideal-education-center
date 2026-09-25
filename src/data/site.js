@@ -71,7 +71,7 @@ export const IMAGES = {
 
 export const HIGHLIGHTS = [
   { text: "Admissions Open for Session 2026-27", to: "/admission" },
-  { text: "Vinam Scholarship - Up to ₹ 10 Lakhs", to: "/vinam" },
+  // { text: "Vinam Scholarship - Up to ₹ 10 Lakhs", to: "/vinam" },
   { text: "Career Talk 2.0 - 22nd Feb, 2026", to: "/career-talk" },
 ];
 
